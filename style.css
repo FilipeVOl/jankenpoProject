@@ -1,0 +1,13 @@
+.flex-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+button {
+    width: 150px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 10px;
+    border-color: black;
+}
