@@ -3,13 +3,36 @@
     <head>
         <title>Rock Paper Scissors!</title>
         <meta charset = "UTF-8">
-        <script src="java.js"></script>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <div class="flex-container">
-        <h1>Rock Paper Scissor</h1>
-        <button onclick="game()">Start game</button>
-        </div>
         
-    </body>
+        <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="score">
+        <h1 class = "ties">Ties: 0</h1>
+</div>
+    <div class="winnerDiv">
+        <h1 class="winner"></h1>
+        <button class="reset" onclick="resetgame">Play again?</button>
+</div>
+    <div class="playerSection">
+        <h3 class="playerChoice"></h3>
+        <h3 class="playerScore">Score: 0</h3>
+    <div class="playerImgs">
+          <img src="./images/rock.png" alt="rock" class="pImg" id="rock"/>
+          <img src="./images/paper.png" alt="paper" class="pImg" id="paper"/>
+          <img src="./images/scissor.png" alt="scissor" class="pImg" id="scissor"/>
+</div>
+</div>
+
+    <div class="computerSection">
+        <h3 class="computerChoice"></h3>
+        <h3 class="computerScore">Score: 0</h3>
+    <div class="computerImgs">
+        <img src="./images/rock.png" alt="rock" class="cImg"/>
+        <img src="./images/paper.png" alt="paper" class="cImg"/>
+        <img src="./images/scissor.png" alt="scissor" class="cImg"/>
+    </div>
+    </div>
+        
+</body>
+<script src="java.js"></script>
